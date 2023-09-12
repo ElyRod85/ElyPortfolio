@@ -608,16 +608,18 @@ main .cta {
     padding: 10px;
 }
 
-main .cta-contact {
-    flex-flow: row-reverse wrap;   
-}
-
 main .cta p {
     width: 70%;
     font-size: 18px;
     text-align: center;
 }
 
+main p.projects-cta {
+    width: 70%;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px auto 0 auto;
+}
 
 @media screen and (max-width: 1100px){
     main .cta {
@@ -669,7 +671,9 @@ main .cta-button:hover {
     transition: 300ms;
 }
 
-
+main .cta-button-spacing {
+    margin: 30px auto 0 auto;
+}
 
 
 
