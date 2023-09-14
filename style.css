@@ -181,10 +181,16 @@ section {
 
 
 @media screen and (max-width: 990px) {
-    #my-header nav .navbar-nav a {
-        border-bottom: 1px solid rgb(222, 222, 222);
+    #my-header nav .navbar-nav {
+        height: 100vh;
+        margin-top: 50px;
     }
-
+    #my-header nav .navbar-nav a {
+        text-align: center;
+        margin: 20px auto;
+        padding: 0;
+        font-size: 18px;
+    }
     #my-header nav .navbar-nav a:last-child {
         border-bottom: 0;
     }
