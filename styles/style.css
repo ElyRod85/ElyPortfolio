@@ -834,7 +834,7 @@ main .education-container .courses ul li {
 
 @media (max-width: 768px) {
   #experience .zigzag {
-    width: 80%;
+    width: 90%;
   }
   #experience .zigzag .zigtitles {
     width: 100%;
@@ -994,7 +994,7 @@ main #contact .contact-form .contact-buttons button .reset:hover {
 
 @media screen and (max-width: 1366px) {
   main #contact .contact-form input {
-    width: 40%;
+    width: 50%;
   }
   main #contact .contact-form textarea {
     width: 60%;

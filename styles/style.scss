@@ -309,7 +309,7 @@ main .skills { margin: 60px auto 30px auto;
             }
         }
     }
-    .no-border { border: 0; 
+    .no-border { border: 0;
         &:hover { border: 0; transition: 300ms;
             box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none;
         }
@@ -545,7 +545,7 @@ main .education-container .courses { width: 49%; padding: 0;
 }
 
 @media(max-width: 768px) {
-    #experience .zigzag { width: 80%;
+    #experience .zigzag { width: 90%;
         .zigtitles { width: 100%; order: 1; }
         .leftzig { flex-flow: column wrap; justify-content: center; align-items: center; align-content: center; gap: 0; 
             .zigdesc { width: 100%; align-self: center; border-radius: 0 0 5px 5px; order: 2; }
@@ -639,7 +639,7 @@ main #contact .contact-form .contact-buttons {
 
 @media screen and (max-width: 1366px) {
     main #contact .contact-form {
-        input { width: 40%; }
+        input { width: 50%; }
         textarea { width: 60%; }
         .contact-buttons { width: 60%; gap: 30px; }
     }
