@@ -847,11 +847,17 @@ main .education-container .courses ul li {
     align-content: center;
     gap: 0;
   }
-  #experience .zigzag .zigdesc {
-    order: 2;
+  #experience .zigzag .leftzig .zigdesc {
     width: 100%;
     align-self: center;
     border-radius: 0 0 5px 5px;
+    order: 2;
+  }
+  #experience .zigzag .rightzig .zigdesc {
+    width: 100%;
+    align-self: center;
+    border-radius: 0 0 5px 5px;
+    order: 2;
   }
 }
 /* Contact Form */

@@ -547,12 +547,14 @@ main .education-container .courses { width: 49%; padding: 0;
 @media(max-width: 768px) {
     #experience .zigzag { width: 80%;
         .zigtitles { width: 100%; order: 1; }
-        .leftzig { flex-flow: column wrap; justify-content: center; align-items: center; align-content: center; gap: 0; }
-        .zigdesc { order: 2; width: 100%; align-self: center; border-radius: 0 0 5px 5px; }
+        .leftzig { flex-flow: column wrap; justify-content: center; align-items: center; align-content: center; gap: 0; 
+            .zigdesc { width: 100%; align-self: center; border-radius: 0 0 5px 5px; order: 2; }
+        }
+        .rightzig {
+            .zigdesc { width: 100%; align-self: center; border-radius: 0 0 5px 5px; order: 2; }
+        }
     }
 }
-
-
 
 
 
