@@ -173,7 +173,7 @@ section { scroll-margin-top: 90px; }
             color: var(--orange);
             transition: 300ms;
                 &:hover { color: var(--dark-orange); transition: 300ms; }
-            .disabled { color: rgb(118, 118, 118);
+            &.disabled { color: rgb(118, 118, 118);
                 &:hover { color: rgb(118, 118, 118); cursor: default; }
             }
         }
@@ -309,7 +309,7 @@ main .skills { margin: 60px auto 30px auto;
             }
         }
     }
-    .no-border { border: 0;
+    .no-border { border: 0; width: 31%;
         &:hover { border: 0; transition: 300ms;
             box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none;
         }
@@ -361,6 +361,7 @@ main .skills { margin: 60px auto 30px auto;
     main .skills {
         .skills-bar { gap: 50px 0; }
         .skill { width: 40%; }
+        .no-border { width: 45%; }
     }
 }
 
@@ -369,6 +370,7 @@ main .skills { margin: 60px auto 30px auto;
         .skill { width: 90%; }
         .image { width: 100%; }
         .description { width: 100%; }
+        .no-border { width: 100%; }
     }
 }
 

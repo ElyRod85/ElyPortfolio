@@ -15,6 +15,8 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
+
+
 // Share buttons
 const link = encodeURI(window.location.href);
 const msg = encodeURIComponent('Eleonora is a Front-End Dev & Web Designer, check out her portfolio!');

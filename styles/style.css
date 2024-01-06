@@ -252,10 +252,10 @@ section {
   color: var(--dark-orange);
   transition: 300ms;
 }
-#my-header nav .navbar-nav a .disabled {
+#my-header nav .navbar-nav a.disabled {
   color: rgb(118, 118, 118);
 }
-#my-header nav .navbar-nav a .disabled:hover {
+#my-header nav .navbar-nav a.disabled:hover {
   color: rgb(118, 118, 118);
   cursor: default;
 }
@@ -462,6 +462,7 @@ main .skills .image img:hover {
 }
 main .skills .no-border {
   border: 0;
+  width: 31%;
 }
 main .skills .no-border:hover {
   border: 0;
@@ -557,6 +558,9 @@ main .skills a.repo {
   main .skills .skill {
     width: 40%;
   }
+  main .skills .no-border {
+    width: 45%;
+  }
 }
 @media screen and (max-width: 768px) {
   main .skills .skill {
@@ -566,6 +570,9 @@ main .skills a.repo {
     width: 100%;
   }
   main .skills .description {
+    width: 100%;
+  }
+  main .skills .no-border {
     width: 100%;
   }
 }
