@@ -3,8 +3,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;800&display=swap");
 :root {
   /* Colors */
-  --orange: #ffb45c;
-  --dark-orange: #eb9632;
+  --orange: #FECA81;
+  --dark-orange: #d87a10;
+  --even-darker-orange: #AD5C00;
   --dark-gray: #3f3f3f;
   --white: #ffffff;
   /* Typography */
@@ -108,7 +109,7 @@ main span.highlight {
   letter-spacing: -1px;
 }
 main span.highlight-darker {
-  color: var(--dark-orange);
+  color: var(--even-darker-orange);
   font-weight: 700;
   line-height: 1.5;
   font-family: var(--alt-font);
@@ -125,9 +126,9 @@ main ul.tags li {
   font-size: 12px;
   font-weight: 800;
   background-color: var(--white);
-  color: var(--dark-orange);
+  color: var(--even-darker-orange);
   border-radius: 50px;
-  border: 1px solid var(--orange);
+  border: 1px solid var(--dark-orange);
   padding: 2px 10px;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -158,14 +159,14 @@ main .cta-button-spacing {
 }
 main .cta-button {
   background-color: var(--orange);
-  color: var(--white);
+  color: var(--dark-gray);
   border: 2px solid var(--orange);
   border-radius: 50px;
   font-family: var(--button-font);
   font-weight: 900;
   font-size: 16px;
   text-align: center;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   text-transform: uppercase;
   padding: 10px 20px;
   margin: 0 auto;
@@ -175,8 +176,9 @@ main .cta-button {
   transition: 300ms;
 }
 main .cta-button:hover {
-  background-color: var(--white);
-  color: var(--dark-orange);
+  background-color: var(--dark-gray);
+  color: var(--white);
+  border: 2px solid var(--dark-gray);
   transition: 300ms;
   box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.15);
   -webkit-box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.15);
@@ -201,6 +203,9 @@ main .cta a.inline-link {
   color: var(--dark-orange);
   font-weight: 800;
   transition: 300ms;
+}
+main .cta a.inline-link:hover {
+  color: var(--even-darker-orange);
 }
 
 @media screen and (max-width: 1100px) {
@@ -245,7 +250,7 @@ section {
   font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 1px;
-  color: var(--orange);
+  color: var(--even-darker-orange);
   transition: 300ms;
 }
 #my-header nav .navbar-nav a:hover {
@@ -253,7 +258,7 @@ section {
   transition: 300ms;
 }
 #my-header nav .navbar-nav a.disabled {
-  color: rgb(118, 118, 118);
+  color: var(--dark-gray);
 }
 #my-header nav .navbar-nav a.disabled:hover {
   color: rgb(118, 118, 118);
@@ -311,12 +316,12 @@ main .header .header-buttons {
 }
 main .header .header-buttons a.my-button {
   background-color: var(--orange);
-  color: var(--white);
+  color: var(--dark-gray);
   font-family: var(--button-font);
   font-weight: 900;
-  font-size: 14px;
+  font-size: 15px;
   text-align: center;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   text-transform: uppercase;
   padding: 10px 20px;
   border-radius: 50px;
@@ -330,7 +335,7 @@ main .header .header-buttons a.my-button {
 }
 main .header .header-buttons a.my-button:hover {
   background-color: var(--white);
-  color: var(--dark-orange);
+  color: var(--dark-gray);
   border: 2px solid var(--white);
   transition: 300ms;
 }
@@ -424,7 +429,7 @@ main .skills .skills-bar .icon i {
   width: 60px;
   height: 60px;
   border-radius: 50px;
-  background-color: var(--orange);
+  background-color: var(--dark-gray);
   color: var(--white);
 }
 main .skills .skill {
@@ -516,14 +521,14 @@ main .skills .header-buttons {
 }
 main .skills a.project-button {
   background-color: var(--orange);
-  color: var(--white);
+  color: var(--dark-gray);
   border: 2px solid var(--orange);
   border-radius: 50px;
   font-family: var(--button-font);
   font-weight: 900;
   font-size: 14px;
   text-align: center;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   text-transform: uppercase;
   text-decoration: none;
   width: fit-content;
@@ -533,8 +538,9 @@ main .skills a.project-button {
   transition: 300ms;
 }
 main .skills a.project-button:hover {
-  background-color: var(--white);
-  color: var(--dark-orange);
+  background-color: var(--dark-gray);
+  color: var(--white);
+  border: 2px solid var(--dark-gray);
   box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.15);
   -webkit-box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0px 0px 22px 0px rgba(0, 0, 0, 0.15);
@@ -542,8 +548,8 @@ main .skills a.project-button:hover {
 }
 main .skills a.repo {
   background-color: var(--white);
-  color: var(--orange);
-  border: 2px solid var(--orange);
+  color: var(--dark-gray);
+  border: 2px solid var(--dark-gray);
 }
 
 @media screen and (max-width: 1366px) {
@@ -777,7 +783,7 @@ main .education-container .courses ul li {
   height: 60px;
   border-radius: 50px;
   background-color: var(--orange);
-  color: var(--white);
+  color: var(--dark-gray);
 }
 #experience .zigzag .leftzig, #experience .zigzag .rightzig {
   width: 100%;
@@ -827,10 +833,10 @@ main .education-container .courses ul li {
 }
 #experience .zigzag .zigtitles p.date {
   margin: 10px auto;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-weight: 700;
-  font-size: 12px;
+  text-transform: capitalize;
+  letter-spacing: 0;
+  font-weight: 500;
+  font-size: 14px;
   text-align: center;
   color: var(--white);
 }
@@ -949,7 +955,7 @@ main #contact .contact-form p.contact-link a {
   transition: 300ms;
 }
 main #contact .contact-form p.contact-link a:hover {
-  color: rgb(212, 123, 21);
+  color: var(--even-darker-orange);
   transition: 300ms;
 }
 
@@ -969,12 +975,12 @@ main #contact .contact-form .contact-buttons i {
 }
 main #contact .contact-form .contact-buttons button {
   background-color: var(--orange);
-  color: var(--white);
+  color: var(--dark-gray);
   font-family: var(--button-font);
   font-weight: 900;
-  font-size: 14px;
+  font-size: 15px;
   text-align: center;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   text-transform: uppercase;
   text-decoration: none;
   padding: 10px 20px;
@@ -984,9 +990,9 @@ main #contact .contact-form .contact-buttons button {
   transition: 300ms;
 }
 main #contact .contact-form .contact-buttons button:hover {
-  background-color: var(--white);
-  color: var(--dark-orange);
-  border: 2px solid var(--orange);
+  background-color: var(--dark-gray);
+  color: var(--white);
+  border: 2px solid var(--dark-gray);
   cursor: pointer;
   transition: 300ms;
 }
@@ -1051,10 +1057,11 @@ main #contact .contact-form .contact-buttons button .reset:hover {
   line-height: 50px;
   border-radius: 50px;
   background-color: var(--orange);
-  color: var(--white);
+  color: var(--dark-gray);
 }
 #backButton i:hover {
-  background-color: var(--dark-orange);
+  background-color: var(--dark-gray);
+  color: var(--white);
   transition: 300ms;
 }
 
