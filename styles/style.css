@@ -1086,4 +1086,44 @@ footer p {
   padding: 10px;
   text-transform: capitalize;
   letter-spacing: 0;
+}
+
+/* New portfolio */
+main #new-portfolio {
+  width: fit-content;
+  margin: 50px auto;
+  border: 2px solid #834545;
+  padding: 50px 60px;
+  border-radius: 5px;
+  background-color: #ffeaea;
+}
+
+@media only screen and (max-width: 768px) {
+  main #new-portfolio {
+    width: 90%;
+  }
+}
+main #new-portfolio .new-contents {
+  text-align: center;
+}
+
+main #new-portfolio .new-contents p {
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 1.7;
+  color: #494949;
+}
+
+main #new-portfolio .new-contents a {
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: 1.7;
+  font-weight: 800;
+  color: var(--even-darker-orange);
+  transition: 300ms;
+}
+
+main #new-portfolio .new-contents a:hover {
+  color: var(--dark-orange);
+  transition: 300ms;
 }/*# sourceMappingURL=style.css.map */
